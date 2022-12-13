@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import random
 import itertools
 
-# Be the right one and network with the right ones
+
 
 community_members = 10
 community_quantity = 100
@@ -84,19 +84,6 @@ class Community:
 
 
 
-
-# results = comm.start()
-# print(results.count('success'),  results.count('fail'))
-# results = comm.start()
-# print(results.count('success'),  results.count('fail'))
-# results = comm.start()
-# print(results.count('success'),  results.count('fail'))
-# results = comm.start()
-# print(results.count('success'),  results.count('fail'))
-# results = comm.start()
-# print(results.count('success'),  results.count('fail'))
-# results = comm.start()
-# print(results.count('success'),  results.count('fail'))
 
 dataframes = []
 for i in range(community_quantity):
